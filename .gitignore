@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build and distribution directories
+dist/
+build/
+out/
+
+# Environment variables and secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs and editors configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
