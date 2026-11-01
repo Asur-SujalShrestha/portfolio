@@ -216,7 +216,7 @@ function Avatar() {
           </mesh>
         ))}
 
-        {/* eyes */}
+        {/* eyes model */}
         <group ref={eyes} position={[0, 0.08, 0]}>
           <Eye x={-0.36} z={ez(-0.36)} irisRef={(n) => (irises.current[0] = n)} />
           <Eye x={0.36} z={ez(0.36)} irisRef={(n) => (irises.current[1] = n)} />
