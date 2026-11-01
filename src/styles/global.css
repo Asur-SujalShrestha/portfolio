@@ -115,3 +115,10 @@ footer{margin-top:90px;color:var(--mute);font-size:.88rem;border-top:1px solid v
 .sk-card .chip{border-color:color-mix(in srgb,var(--c) 55%,transparent);background:color-mix(in srgb,var(--c) 14%,transparent)}
 @media(max-width:900px){.sk3d{grid-template-columns:1fr}}
 @media(max-width:520px){.sk-cards{grid-template-columns:1fr}}
+
+.about-top{display:grid;grid-template-columns:340px 1fr;gap:48px;align-items:center}
+.avatar-card{position:relative;height:430px;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:radial-gradient(circle at 50% 35%,rgba(59,123,224,.35),transparent 60%),linear-gradient(160deg,var(--deep),#0A0E26)}
+.avatar-card canvas{position:relative;z-index:1}
+.avatar-tag{position:absolute;left:14px;bottom:14px;z-index:2;font:.72rem ui-monospace,Menlo,monospace;color:var(--gold);background:rgba(7,10,28,.8);border:1px solid var(--line);padding:4px 10px;border-radius:6px}
+.about-text{display:grid;gap:28px}
+@media(max-width:820px){.about-top{grid-template-columns:1fr}.avatar-card{max-width:340px;width:100%;margin:auto}}
